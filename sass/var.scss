@@ -1,0 +1,45 @@
+$imgdir : '../img/';
+
+//** Load fonts from this directory.
+$icon-font-path: "../font/" !default;
+//** File name for all font files.
+$icon-font-name: "glyphicons-halflings-regular" !default;
+//** Element ID within SVG icon file.
+$icon-font-svg-id: "glyphicons_halflingsregular" !default;
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 20px !default;
+
+$btn-font-weight: normal !default;
+$btn-default-color: #333 !default;
+$btn-default-bg: #f6f6f6 !default;
+$btn-default-border: #d3d3d3 !default;
+$padding-base-vertical: 6px !default;
+$padding-base-horizontal: 12px !default;
+
+
+
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.428571429 !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+
+$border-radius-base: 2px !default;
+
+$link-color: #1a3dc1;
+$title-color: #2c2c2c;
+
+$ff: Helvetica, Arial, sans-serif;
