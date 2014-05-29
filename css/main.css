@@ -129,7 +129,7 @@
 }
 .sm_w1_1 h1 {
   font-size: 16px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif !important;
   font-weight: bold;
   color: #2c2c2c;
   margin: 0;
@@ -141,7 +141,7 @@
 }
 .sm_w1_1 p {
   color: #2c2c2c;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif !important;
   font-size: 12px;
   font-weight: normal;
   margin: 0;
@@ -166,7 +166,7 @@
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif !important;
   font-size: 11px;
   padding: 2px 9px;
   font-size: 11px;
@@ -366,7 +366,7 @@
   color: #2C2C2C;
   margin-top: 0;
   margin-bottom: 5px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif !important;
   font-size: 16px;
   font-weight: bold;
 }
@@ -388,7 +388,7 @@
   color: #2C2C2C;
   line-height: 1.5em;
   cursor: pointer;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif !important;
   font-size: 13px;
 }
 .sm_w1_1.sm_w1_1horizontal {
@@ -460,7 +460,7 @@
 .sm_w1_1 .sm_w1_1compare td a {
   color: #1a3dc1;
   font-size: 12px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif !important;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -468,7 +468,7 @@
   text-decoration: none;
 }
 .sm_w1_1 .sm_w1_1compare td .sm_w1_1price {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif !important;
   color: #2c2c2c;
   font-weight: bold;
   font-size: 12px;
@@ -507,13 +507,13 @@
   cursor: pointer;
 }
 .sm_w1_1 .sm_w1_1power p {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif !important;
   font-size: 10px;
   color: #888;
   line-height: 20px;
 }
 .sm_w1_1 .sm_w1_1power p a {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif !important;
   font-size: 10px;
   color: #888;
   line-height: 20px;
@@ -529,7 +529,7 @@
   line-height: 20px;
   font-size: 11px;
   color: #000;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif !important;
   cursor: pointer;
   text-decoration: none;
 }
