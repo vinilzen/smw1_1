@@ -23,5 +23,11 @@ $(function() {
 			$('#change-sity').popover('hide');
 			return false;
 		});
+
 	});
+
+	window.onresize = function(event) {
+		$('#change-sity').popover('hide');
+		$('.sm_w1_1popover').attr('style','');
+	}
 });
