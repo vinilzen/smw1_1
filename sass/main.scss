@@ -91,7 +91,8 @@
       margin-left: auto;
       margin-right: auto;
       vertical-align: middle;
-      padding-top: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
     .sm_w1_1ya-logo {
       display: block;
@@ -261,5 +262,8 @@
       .sm_w1_1hidden-xs {
         display: none !important;
       }
+    }
+    .sm_w1_1container .sm_w1_1col-3 {
+      margin-bottom: -10px;
     }
 }

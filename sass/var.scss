@@ -7,13 +7,13 @@ $icon-font-name: "glyphicons-halflings-regular" !default;
 //** Element ID within SVG icon file.
 $icon-font-svg-id: "glyphicons_halflingsregular" !default;
 
-$grid-columns: 12 !important;
-$grid-gutter-width: 20px !important;
+$grid-columns: 12;
+$grid-gutter-width: 20px;
 
-$btn-font-weight: normal !important;
-$btn-default-color: #333 !important;
-$btn-default-bg: #f6f6f6 !important;
-$btn-default-border: #d3d3d3 !important;
+$btn-font-weight: normal;
+$btn-default-color: #333;
+$btn-default-bg: #f6f6f6;
+$btn-default-border: #d3d3d3;
 $padding-base-vertical: 6px !important;
 $padding-base-horizontal: 12px !important;
 

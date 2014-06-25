@@ -170,7 +170,7 @@
   font-size: 11px;
   padding: 2px 9px;
   font-size: 11px;
-  line-height: 1.42857;
+  line-height: 1.42857 !important;
   border-radius: 2px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -482,7 +482,8 @@
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
-  padding-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .sm_w1_1 .sm_w1_1ya-logo {
   display: block;
@@ -631,3 +632,8 @@
     display: none !important;
   }
 }
+.sm_w1_1 .sm_w1_1container .sm_w1_1col-3 {
+  margin-bottom: -10px;
+}
+
+/*# sourceMappingURL=main.css.map */

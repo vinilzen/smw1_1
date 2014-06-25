@@ -29,5 +29,17 @@ $(function() {
 	window.onresize = function(event) {
 		$('#change-sity').popover('hide');
 		$('.sm_w1_1popover').attr('style','');
+
+		var body_height = $('.sm_w1_1row-body').outerHeight(),
+			img_height = $('.sm_w1_1item-photo').outerHeight();
+
+		$('.sm_w1_1row-body .sm_w1_1col-3').css('margin-top',(body_height - img_height)/2);
+
 	}
+
+	var body_height = $('.sm_w1_1row-body').outerHeight(),
+		img_height = $('.sm_w1_1item-photo').outerHeight();
+
+	$('.sm_w1_1row-body .sm_w1_1col-3').css('margin-top',(body_height - img_height)/2);
+
 });
